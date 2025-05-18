@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 20px;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  box-shadow: 0 4px 12px rgba(255, 187, 60, 0.1);
+}
+
+.poster {
+  width: 280px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.details {
+  flex: 1;
+  color: #ffffff;
+}
+
+.details h2 {
+  margin: 0 0 12px 0;
+  font-size: 28px;
+  color: #ffbb3c;
+}
+
+.details h3 {
+  margin-top: 20px;
+  color: #ffbb3c;
+}
+
+.details p {
+  margin: 6px 0;
+  line-height: 1.6;
+  color: #dddddd;
+}
